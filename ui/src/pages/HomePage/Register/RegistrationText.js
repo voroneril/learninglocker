@@ -5,8 +5,3 @@ export const RegistrationText = styled.div`
   font-size: 28px;
   font-weight: bold;
 `;
-
-export const RegistrationInfoText = styled.div`
-  font-size: 15px;
-  text-align: left;
-`;

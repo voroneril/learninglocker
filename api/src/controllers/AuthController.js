@@ -60,7 +60,7 @@ const resetPasswordRequest = (req, res, next) => {
           logger.error('Password reset error', err);
           return res.status(500).send({ message: 'There was an issue. Please try again' });
         }
-
+        
         // @TODO: send status based on outcome of send!!
         sendResetPasswordToken(user, token);
 

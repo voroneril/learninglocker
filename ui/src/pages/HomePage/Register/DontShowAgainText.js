@@ -1,10 +1,9 @@
 import styled from 'styled-components';
 
-export const NotNowText = styled.span`
+export const DontShowAgainText = styled.span`
   color: #8d5e28;
   margin-top: 12px;
   cursor: pointer;
-  width: 100%;
 
   :hover {
     color: #8d5e28;
